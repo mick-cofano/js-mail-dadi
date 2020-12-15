@@ -10,3 +10,9 @@ if (mailAmmesse.indexOf(mail) !== -1) {
 } else {
   alert('Errore, inserire una mail valida!')
 }
+
+// gioco dei dadi random
+var player = [1,2,3,4,5,6]; // numeri da 1 a 6 per essere randomizzati
+var cpu = [1,2,3,4,5,6]; // numeri da 1 a 6 per essere randomizzati
+var playerResult;
+var cpuResult;
