@@ -22,3 +22,15 @@ playerResult = Math.floor((Math.random() * player.length) + 1); //risultato nume
 cpuResult = Math.floor((Math.random() * cpu.length) + 1); //risultato numero random da 1 a 6 CPU
 alert("Il risultato del tuo tiro è: " + playerResult);
 alert("Il risultato del tiro del PC è: " + cpuResult);
+
+//vincitori
+if(playerResult > cpuResult){
+  alert("Congratulazioni, hai vinto!"); // vittoria player
+
+}else if (playerResult == cpuResult) {
+  alert("Hai pareggiato. :)"); //pareggio
+
+}
+else {
+  alert("Hai perso, riprova!"); //sconfitta player
+}
